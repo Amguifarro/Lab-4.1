@@ -17,13 +17,20 @@ console.log(formatFullName("amara", "guifarro"));
 
 // Task #2
 
-function calculateTotalCost(price, quantity, taxRate) {
+function calculateTotalCost(price, quantity, taxRate, discount = 0) {
 
-  totalCost = (price * quantity) * (1 + taxRate);
+  
+    let subtotal = price * quantity;
 
-  return totalCost;
+    subtotal = subtotal - discount;
+    
+    let totalCost = subtotal * (1 + taxRate);
 
-}
+    return totalCost;
+  }
+
+
+
 
   console.log(calculateTotalCost( 15, 4, 0.08));
 
@@ -55,6 +62,8 @@ function calculateTotalCost(price, quantity, taxRate) {
    
 
   
+
+  console.log(calculateTotalCost(20, 4, 0.08, 5))
 
 
 
