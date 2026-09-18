@@ -59,9 +59,6 @@ function calculateTotalCost(price, quantity, taxRate, discount = 0) {
   console.log(checkEligibility(17, true));
   console.log(checkEligibility(18, true));
 
-   
-
-  
 
   console.log(calculateTotalCost(20, 4, 0.08, 5))
 

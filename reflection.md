@@ -1,0 +1,3 @@
+I made my functions more flexible by using parameters so I could use different values without having to rewrite the function each time.
+The most challenging part for me was figuring out where to put the conditional statements and making sure the function returned the correct result depending on the input.
+Refactoring helped me clean up my code and make it easier to understand. It also makes it easier to make changes later without having to rewrite everything.
